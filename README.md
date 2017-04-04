@@ -2,8 +2,8 @@
 
 SoundMonk is a simple but useful music application that lets users store their song online and play them via the app.
 
-<img src="https://github.com/bkaankuguoglu/SoundMonk/tree/master/media/albums.png"> 
-<img src="https://github.com/bkaankuguoglu/SoundMonk/tree/master/media/detail.png"> 
+![albums](https://github.com/bkaankuguoglu/SoundMonk/tree/master/media/albums.png?raw=true)
+![detail](https://github.com/bkaankuguoglu/SoundMonk/tree/master/media/detail.png?raw=true) 
 
 ## Getting Started
 
