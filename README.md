@@ -6,11 +6,10 @@ SoundMonk is a simple but useful music application that lets users store their s
 
 Assuming that you have already installed all the prerequisites, you can run the application right away after you clone this repo. For those who use PyCharm it is just as easy as clicking the run button; while those who prefer to use Django on different IDEs may use the following commands on the terminal:
 
----
+----
  $ cd <project_directory>
  $ python manage.py runserver 8000
-
----
+----
 
 This will run the server as well as your app on the local server. The number 8000 is just the port number and it can be chosen arbitrarily. Now you should be able to see your app running on [your localhost](127.0.0.1:8000/music)
 
@@ -23,15 +22,15 @@ However, you might want to create your own account as well by simply following t
 
 Here's one simple trick if you wish to change the password for any user, including the admin:
 
----
+----
  $ python manage.py changepassword <username>
----
+----
 
 Also, you may run into some error if you're already running an application on the same port of your localhost. One way to solve this problem is:
 
----
+----
 $ sudo lsof -t -i tcp:8000 | xargs kill -9
----
+----
 
 This might seem quite odd to you, but hey, it works!
 
