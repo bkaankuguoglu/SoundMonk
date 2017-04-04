@@ -2,6 +2,12 @@
 
 SoundMonk is a simple but useful music application that lets users store their song online and play them via the app.
 
+![Albums](http://imgur.com/Kbr2hFw "Albums")
+
+![Album Detail](http://imgur.com/DugPJnO "Album Detail")
+
+
+
 ## Getting Started
 
 Assuming that you have already installed all the prerequisites, you can run the application right away after you clone this repo. For those who use PyCharm it is just as easy as clicking the run button; while those who prefer to use Django on different IDEs may use the following commands on the terminal:
